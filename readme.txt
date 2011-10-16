@@ -4,7 +4,7 @@ Donate link: http://www.werdswords.com
 Tags: dashboard, access, users, administration
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 0.3
+Stable tag: 0.4
 
 This plugin completely removes non-admin user access to the Dashboard. Non-admins are automatically redirected the site's homepage.
 
@@ -29,6 +29,8 @@ Non-admin users will be automatically redirected to the site's homepage
 
 == Changelog ==
 
+= 0.4 = Refined DOING_AJAX check for logged-out users, props @nacin and @BoiteAWeb
+
 = 0.3 = Changed cap to manage_options, replaced PHP_SELF with DOING_AJAX
 
 = 0.2 = Replaced preg_match with admin-ajax test. Added compatibility with rewritten dashboard URLs.
@@ -36,6 +38,8 @@ Non-admin users will be automatically redirected to the site's homepage
 = 0.1 = Submitted to repository
 
 == Upgrade Notice ==
+
+= 0.4 = Refined DOING_AJAX check for logged-out users
 
 = 0.3 = Improved function.
 
