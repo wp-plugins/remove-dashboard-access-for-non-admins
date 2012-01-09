@@ -3,7 +3,7 @@ Contributors: DrewAPicture
 Donate link: http://www.werdswords.com
 Tags: dashboard, access, users, administration
 Requires at least: 3.0
-Tested up to: 3.2.1
+Tested up to: 3.3.1
 Stable tag: 0.4
 
 This plugin completely removes non-admin user access to the Dashboard. Non-admins are automatically redirected the site's homepage.
