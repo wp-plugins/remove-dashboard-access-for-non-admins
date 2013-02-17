@@ -117,7 +117,3 @@ Common plugin Toolbar menus and their ids:
 = 0.1 =
 
 * Initial submission
-
-== Screenshots ==
-
-1. No screenshots.
