@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: DrewAPicture
+Contributors: DrewAPicture, 10up
 Donate link: http://www.werdswords.com
 Tags: dashboard, access, users, administration
 Requires at least: 3.1
