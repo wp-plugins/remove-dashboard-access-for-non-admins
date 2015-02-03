@@ -42,18 +42,23 @@ No. Disable the plugin if you don't wish to leverage the functionality.
 == Other Notes ==
 
 <strong>Capabilities:</strong>
+
 * You can limit Dashboard access to Admins only, Editors or above, Authors or above, or by selecting a capability. More information on WordPress' default roles and capabilities can be found here: http://codex.wordpress.org/Roles_and_Capabilities
 
 <strong>User Profile Access:</strong>
+
 * You can optionally allow all users the ability to edit their profiles in the Dashboard. Users lacking the chosen capability won't be able to access any other sections of the Dashboard.
 
 <strong>Login Message:</strong>
+
 * Supply a message to display on the login screen. Leaving this blank disables the message.
 
 <strong>Hiding other plugins/themes' Toolbar menus:</strong>
+
 * Remove Dashboard Access removes some built-in WordPress Toolbar menus by default, but can be extended to hide menus from other plugins or themes via two filters: `rda_toolbar_nodes` (viewing from the admin), and `rda_frontend_toolbar_nodes` (viewing from the front-end).
 
 <strong>How to find the menu (node) id:</strong>
+
 * In the HTML page source, look for the `<li>` container for the menu node you're targeting. It should take the form of `<li id="wp-admin-bar-SOMETHING">`
 * In `<li id="wp-admin-bar-SOMETHING">`, you want the "SOMETHING" part.
 	
@@ -74,6 +79,7 @@ add_filter( 'rda_frontend_toolbar_nodes', 'wpdocs_hide_some_toolbar_menu' );
 `
 
 <strong>Common plugin Toolbar menus and their ids:</strong>
+
 * <a href="http://wordpress.org/extend/plugins/jetpack/">Jetpack by WordPress.com</a> (notifications) – 'notes'
 * <a href="http://wordpress.org/extend/plugins/wordpress-seo/">WordPress SEO by Yoast</a> – 'wpseo-menu'
 * <a href="http://wordpress.org/extend/plugins/w3-total-cache/">W3 Total Cache</a> – 'w3tc'
@@ -81,7 +87,9 @@ add_filter( 'rda_frontend_toolbar_nodes', 'wpdocs_hide_some_toolbar_menu' );
 <strong>Debug Mode</strong>
 
 To view debugging information on the Settings > Reading screen, visit:
+`
 example.com/options-general.php?page=dashboard-access&rda_debug=1
+`
 
 == Screenshots ==
 
