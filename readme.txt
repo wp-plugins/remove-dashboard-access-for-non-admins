@@ -99,6 +99,10 @@ example.com/options-general.php?page=dashboard-access&rda_debug=1
 
 == Changelog ==
 
+= 1.1.3 =
+
+* Fixed a compatibility issue with bbPress and the media grid view.
+
 = 1.1.2 =
 
 * Bump tested-up-to to 4.1.0
